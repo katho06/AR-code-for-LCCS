@@ -5,7 +5,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
-#-------AR1---------
+# -------AR1---------
 
 data = pd.read_csv('arr.csv')
 
@@ -58,7 +58,7 @@ if happiness_what_if_q1 > 5.5:
 else:
     print("Doubling the percentage of days missing for a student who studies double that of the national average doesn't increase happiness")
     
-#What If q2
+# What If q2
     
 print("------------------------------------------------------------------------------------------------------------------------------------------")
 print("What if .... ? (2)")
@@ -79,7 +79,7 @@ if happiness_what_if_q2 > 5.5:
 else:
     print("Student is still not happy")
     
-#--------AR3----------
+# --------AR3----------
 
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
